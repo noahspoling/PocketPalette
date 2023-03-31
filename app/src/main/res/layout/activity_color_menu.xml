@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ColorMenu">
+
+    <!--
+
+    -->
+
+    <View
+        android:id="@+id/colorPreview1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="16dp"
+        android:background="#DDDDDD"
+        android:clickable="true"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/colorPreview4"
+        app:layout_constraintEnd_toStartOf="@+id/colorPreview2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewButton1" />
+
+    <View
+        android:id="@+id/colorPreview4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="10dp"
+        android:background="#DDDDDD"
+        android:clickable="true"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/viewButton4"
+        app:layout_constraintEnd_toStartOf="@+id/colorPreview5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/colorPreview1" />
+
+    <View
+        android:id="@+id/colorPreview5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"
+        android:background="#DDDDDD"
+        android:clickable="true"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/viewButton5"
+        app:layout_constraintEnd_toStartOf="@+id/colorPreview6"
+        app:layout_constraintStart_toEndOf="@+id/colorPreview4"
+        app:layout_constraintTop_toBottomOf="@+id/colorPreview2" />
+
+    <View
+        android:id="@+id/colorPreview6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="10dp"
+        android:background="#DDDDDD"
+        android:clickable="true"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/viewButton6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/colorPreview5"
+        app:layout_constraintTop_toBottomOf="@+id/colorPreview3" />
+
+    <View
+        android:id="@+id/colorPreview2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="16dp"
+        android:background="#DDDDDD"
+        android:clickable="true"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/colorPreview5"
+        app:layout_constraintEnd_toStartOf="@+id/colorPreview3"
+        app:layout_constraintStart_toEndOf="@+id/colorPreview1"
+        app:layout_constraintTop_toBottomOf="@+id/viewButton2" />
+
+    <View
+        android:id="@+id/colorPreview3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="16dp"
+        android:background="#DDDDDD"
+        android:clickable="true"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/colorPreview6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/colorPreview2"
+        app:layout_constraintTop_toBottomOf="@+id/viewButton3" />
+
+    <!--
+    <EditText
+        android:id="@+id/bHexEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="40dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0"
+        app:layout_constraintBottom_toTopOf="@+id/setColorBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/gHexEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="40dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0"
+        app:layout_constraintBottom_toTopOf="@+id/bHexEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/rHexEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="40dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0"
+        app:layout_constraintBottom_toTopOf="@+id/gHexEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent" />
+    -->
+
+    <Button
+        android:id="@+id/setColorBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:text="Apply"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="663dp" />
+
+    <SeekBar
+        android:id="@+id/blueSeekBar"
+        android:layout_width="375dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="40dp"
+        android:max="255"
+        android:theme="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:thumb="@drawable/ic_location"
+        app:layout_constraintBottom_toTopOf="@+id/setColorBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <SeekBar
+        android:id="@+id/greenSeekBar"
+        android:layout_width="375dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="40dp"
+        android:max="255"
+        android:theme="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:thumb="@drawable/ic_location"
+        app:layout_constraintBottom_toTopOf="@+id/blueSeekBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <SeekBar
+        android:id="@+id/redSeekBar"
+        android:layout_width="375dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="40dp"
+        android:max="255"
+        android:theme="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:thumb="@drawable/ic_location"
+        app:layout_constraintBottom_toTopOf="@+id/greenSeekBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/viewButton1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/defaultHexCode"
+        app:layout_constraintBottom_toTopOf="@+id/colorPreview1"
+        app:layout_constraintEnd_toStartOf="@+id/viewButton2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/viewButton2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/defaultHexCode"
+        app:layout_constraintBottom_toTopOf="@+id/colorPreview2"
+        app:layout_constraintEnd_toStartOf="@+id/viewButton3"
+        app:layout_constraintStart_toEndOf="@+id/viewButton1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/viewButton4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="277dp"
+        android:text="@string/defaultHexCode"
+        app:layout_constraintBottom_toTopOf="@+id/setColorBtn"
+        app:layout_constraintEnd_toStartOf="@+id/viewButton5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/colorPreview4" />
+
+    <Button
+        android:id="@+id/viewButton5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="345dp"
+        android:text="@string/defaultHexCode"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/viewButton6"
+        app:layout_constraintStart_toEndOf="@+id/viewButton4"
+        app:layout_constraintTop_toBottomOf="@+id/colorPreview5" />
+
+    <Button
+        android:id="@+id/viewButton6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="345dp"
+        android:text="@string/defaultHexCode"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/viewButton5"
+        app:layout_constraintTop_toBottomOf="@+id/colorPreview6" />
+
+    <Button
+        android:id="@+id/viewButton3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="18dp"
+        android:text="@string/defaultHexCode"
+        app:layout_constraintBottom_toTopOf="@+id/colorPreview3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/viewButton2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/setColorBtn"
+        tools:layout_editor_absoluteY="663dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

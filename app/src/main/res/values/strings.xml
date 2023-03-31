@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PocketPalette</string>
+    <string name="addPaletteBtn">Add Palette</string>
+    <string name="editPaletteBtn">Edit Palette</string>
+    <string name="newColorBtn">New Color</string>
+    <string name="typeSelectMenu">Type</string>
+    <string name="paletteNamePreview">Type</string>
+    <string name="addColorBtn">Add Color</string>
+    <string name="SplashTitle">Pocket Palette</string>
+    <string name="defaultHexCode">#FFFFFF</string>
+</resources>
